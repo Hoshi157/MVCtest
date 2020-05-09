@@ -15,31 +15,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vyg-Fu-7CV" customClass="CustomView" customModule="MVCtest" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JXo-C6-1Lj" customClass="CustomView" customModule="MVCtest" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                    </view>
-                                </subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vsL-XR-bKU" customClass="CustomView" customModule="MVCtest" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vyg-Fu-7CV" secondAttribute="trailing" id="Opg-nl-y1Q"/>
-                            <constraint firstItem="Vyg-Fu-7CV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WiA-X5-LFn"/>
-                            <constraint firstItem="Vyg-Fu-7CV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="j2L-Db-HJP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vyg-Fu-7CV" secondAttribute="bottom" id="ocP-Xc-vsI"/>
+                            <constraint firstItem="vsL-XR-bKU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="j4t-zh-SoR"/>
+                            <constraint firstItem="vsL-XR-bKU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kDm-5G-RXI"/>
+                            <constraint firstItem="vsL-XR-bKU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nLC-oT-yp4"/>
+                            <constraint firstAttribute="bottom" secondItem="vsL-XR-bKU" secondAttribute="bottom" id="zod-0q-bua"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="130"/>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
     </scenes>
 </document>

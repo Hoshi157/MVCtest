@@ -9,6 +9,11 @@
 import UIKit
 
 class CustomView: UIView {
+    // View
+    
+    @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var minusButton: UIButton!
+    @IBOutlet weak var plusButton: UIButton!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -21,7 +26,6 @@ class CustomView: UIView {
     }
     
     func loadNib() {
-        
         if let view = Bundle(for: type(of: self)).loadNibNamed(String(describing: type(of: self)), owner: self, options: nil)?.first as? UIView {
         view.frame = self.bounds
         self.addSubview(view)
