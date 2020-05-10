@@ -8,8 +8,8 @@
 
 import UIKit
 
-class CustomView: UIView {
-    // View
+//View。レイアウトの処理はViewにて行う。
+final class CustomView: UIView {
     
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var minusButton: UIButton!
@@ -25,6 +25,7 @@ class CustomView: UIView {
         loadNib()
     }
     
+    // xibを使用する場合の処理。
     func loadNib() {
         if let view = Bundle(for: type(of: self)).loadNibNamed(String(describing: type(of: self)), owner: self, options: nil)?.first as? UIView {
         view.frame = self.bounds

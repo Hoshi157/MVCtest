@@ -14,19 +14,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vsL-XR-bKU" customClass="CustomView" customModule="MVCtest" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="vsL-XR-bKU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="j4t-zh-SoR"/>
-                            <constraint firstItem="vsL-XR-bKU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kDm-5G-RXI"/>
-                            <constraint firstItem="vsL-XR-bKU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nLC-oT-yp4"/>
-                            <constraint firstAttribute="bottom" secondItem="vsL-XR-bKU" secondAttribute="bottom" id="zod-0q-bua"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
