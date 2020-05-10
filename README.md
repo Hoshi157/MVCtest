@@ -1,0 +1,8 @@
+# MVCtest
+* iosアプリ設計パターン入門におけるcocoaMvcテスト
+
+## 詰まったところ
+* 今回はストーリボードにて実装。xibにてViewを設置したがViewとControllerの切り分けに詰まった。xibのオーナーをFiles ownerに設定し解消。
+* 基本的に本通りに設定したがラベルにcount変数が表示されなかった。ControllerにてModelのインスタンスを保持していなくてmyModelがnilとなっていた。
+* 循環参照の理解が足りずControllerのnotificationのクロージャに[unowned self]を実装したがこれがそのまま使用できるかは今のところわからないため
+今度調べないといけない。
